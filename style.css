@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #eaeaea;
+  color: #424242;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-size: 17px;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4A628A;
+}
+
+
+.btn-blue {
+  background-color: #4A628A;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #7AB2D3;
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 20px 40px 20px;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.icon:hover{
+  color:#7AB2D3;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
